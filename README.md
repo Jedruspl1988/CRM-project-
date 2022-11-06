@@ -1,5 +1,5 @@
 # CRM-project-
-Landing P{age = Andy 
-Signin = Alex 
-Sign up = Brian 
-How It Works = Chonetl 
+#Landing Page = Andy 
+#Signin = Alex 
+#Sign up = Brian 
+#How It Works = Chonetl 
