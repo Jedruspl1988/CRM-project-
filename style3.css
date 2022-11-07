@@ -104,10 +104,6 @@ padding: 20px 20px;
 margin: 2%;
 }
 
-.facebook{
-padding: 20px 30px;
-}
-
 
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
