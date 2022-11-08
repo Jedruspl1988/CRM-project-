@@ -1,0 +1,128 @@
+.Body1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 80%;
+    margin-right: 30%;
+    padding-top: 5%;
+    padding-right: 10%;
+    height: 1000px;
+    background-color: lightskyblue;
+    border-bottom-right-radius: 100%; 
+}
+
+.Body3{
+font-size: 35px;   
+text-align: center;
+}
+
+.mphoto{
+    width: 600px;
+    height: 600px;   
+}
+
+.signup{
+    background-color: lightskyblue;
+    color: white;
+    border: 2px solid white;  
+    font-size: 24px;
+    padding: 5px 40px;
+    border-radius: 24px;
+    font-weight:100;
+}
+
+.signin {
+    background-color: lightskyblue;
+    color: white;
+    border: 5px solid white;  
+    font-size: 32px;
+    color: white;
+    padding: 5px 60px;
+    border-radius: 32px;
+    font-weight:200;
+}
+
+.sign{
+font-size: 24px;
+
+}
+
+.name1{
+    background-color: white;
+    color: black;
+    border: 2px solid grey;  
+    font-size: 16px;
+    padding: 20px 200px;
+    border-radius: 32px;
+    font-weight:200;
+    background: url(https://th.bing.com/th/id/R.b85abf56f398887ee66a073a853abaa6?rik=SS9BHlpLnC0x%2fQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_283078.png&ehk=lvQ7eUE%2brEbgO8Y5jz1DqGQK7qq0nAgT%2f6r132nS8zg%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+    background-size: 30px;
+    background-position-x: 5%;
+    background-position-y: 50%;
+
+
+}
+
+.email1 {
+    background-color: white;
+    color: black;
+    border: 2px solid grey;  
+    font-size: 16px;
+    padding: 20px 200px;
+    border-radius: 32px;
+    font-weight:200;
+    background: url(https://cdn.onlinewebfonts.com/svg/img_422468.png) no-repeat;
+    background-size: 30px;
+    background-position-x: 5%;
+    background-position-y: 50%;
+}
+
+.password1{
+    background-color: white;
+    color: black;
+    border: 2px solid grey;  
+    font-size: 16px;
+    padding: 20px 200px;
+    border-radius: 32px;
+    font-weight:200;
+    background: url(https://th.bing.com/th/id/R.6c3fb49c353ca3432964c3b9c8634026?rik=6RMQ9Kxfl%2fljVw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_312.png&ehk=lNrdaq%2bnK8D8oUUuQSedloyIG4t3UV195n%2bkA6fIHKc%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+    background-size: 30px;
+    background-position-x: 5%;
+    background-position-y: 50%;
+}
+
+.pic{
+    height: 60px;
+    color: white;
+}
+
+.facebook, .twitter, .linkedin, .google{
+height: 30px;
+border: 2px solid gray;
+border-radius: 100px;
+padding: 20px 20px;
+margin: 2%;
+}
+
+.facebook{
+padding: 20px 30px;
+}
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Body1 Body1 Body3"
+      "Body1 Body1 Body4"
+      "Body1 Body1 Body4";
+  }
+  
+  .Body3 { grid-area: Body3; }
+  
+  .Body4 { grid-area: Body4; }
+  
+  .Body1 { grid-area: Body1; }
+  

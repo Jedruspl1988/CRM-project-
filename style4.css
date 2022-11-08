@@ -145,7 +145,7 @@ main p {
     color: rgba(26, 22, 225, 0.809)
 }
 main h3 {
-    padding-top: 20px;
+    padding-top: 2px;
     font-size: 18px;
     color: rgb(147, 123, 123);
     font-weight: 400;  
@@ -163,8 +163,7 @@ main h3 span {
     width: 6px;
     background-color: rgba(26, 22, 225, 0.809);
     border-radius: 50%;
-    display: inline-flex;
-    
+    display: inline-flex;  
 }
 section {
     justify-items: center;
@@ -179,6 +178,7 @@ section .border {
 }
 section h3 {
     padding-top: 20px;
+    font-size: 26px;
 }
 section h5 {
     text-align: center;
@@ -227,7 +227,7 @@ li button {
     height: 300px;
     margin-top: 200px;
     margin-bottom: 10px;
-    padding-right: 50px;  
+    margin-left: 100px;  
 }
 #bottom-list h3 {
     font-size: 26px;
@@ -290,6 +290,7 @@ li button {
     color: rgba(255, 255, 255, 0.698);
     font-size: 20px;
 }
+
 .solutions {
     display: flex; 
     position:relative;
@@ -298,7 +299,7 @@ li button {
     margin-left: 400px;
     margin-right: 400px;
     justify-content: center;
-    font-size: 26px;
+    font-size: 22px;
 }
 #flex-container2 {
     display: flex;
@@ -309,26 +310,15 @@ li button {
     width: 1000px;
     justify-content: center;
 }
-#flex-container2 ul {
+.flex-container2 {
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 170px;
-    justify-content: center;
-}
-.parent {
     position: relative;
-    top: 0;
-    left: 0;
-}
-.under1 {
-    width: 350px;
-    height: 300px;
-    position: relative;
-}
-.over1 {
-    position: absolute;
-    top: 35px;
-    left: 105px;
+    margin-top: 100px;
+    margin-left: 350px;
+    height: 600px;
+    width: 1200px;
+    border-radius: 20px;
+    margin-bottom: 100px;
 }
 #foottitle {
     background-color: rgba(26, 22, 225, 0.809);
